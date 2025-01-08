@@ -77,6 +77,10 @@ index 30f51a3..5d6755b 100644
 \ No newline at end of file
 PS C:\Users\naoki.tomono\git_challenge> git add .
  1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\naoki.tomono\git_challenge> git commit -m "日本語訳を追記"
+[main (root-commit) 89f2f55] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
 PS C:\Users\naoki.tomono\git_challenge> git log
 commit 89f2f5592132f8ac7fc7fcc2a9b1f81f940fbb00 (HEAD -> main)
 Author: NTOMONO <14ryo.junetomo@gmail.com>
