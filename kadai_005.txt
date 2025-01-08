@@ -1,3 +1,83 @@
+PS C:\Users\naoki.tomono> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\naoki.tomono
+----                 -------------         ------ ----
+d-----        2025/01/08     15:06                git_challenge
+
+
+
+    ディレクトリ: C:\Users\naoki.tomono
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/12/03     17:34                .integer
+d-----        2024/11/11      9:42                .ms-ad
+d-----        2024/12/06     15:51                .vscode
+d-r---        2024/11/08     17:51                3D Objects
+d-r---        2024/11/08     17:51                Contacts
+d-r---        2025/01/08     10:58                Downloads
+d-r---        2024/11/08     17:51                Favorites
+d-----        2025/01/08     15:06                git_challenge
+d-----        2025/01/08     13:43                git_tutorial
+d-r---        2024/11/08     17:51                Links
+d-r---        2024/11/08     17:51                Music
+d-r---        2024/11/11     10:59                OneDrive
+dar--l        2025/01/08      7:38                OneDrive - Wismettac Group
+d-----        2025/01/07     18:34                samurai-terakoya
+d-r---        2024/11/08     17:51                Saved Games
+-a----        2025/01/07     17:38             80 .bash_history
+-a----        2025/01/07     17:41            165 .gitconfig
+-a----        2024/12/12     13:48           5055 商品リスト.xlsx
+
+
+PS C:\Users\naoki.tomono> cd .\git_challenge\
+PS C:\Users\naoki.tomono\git_challenge> git init
+Initialized empty Git repository in C:/Users/naoki.tomono/git_challenge/.git/
+PS C:\Users\naoki.tomono\git_challenge> ls
+
+
+    ディレクトリ: C:\Users\naoki.tomono\git_challenge
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/01/08     15:07              0 hello_world.txt
+
+
+PS C:\Users\naoki.tomono\git_challenge> cat hello_world.txt
+PS C:\Users\naoki.tomono\git_challenge> git diff
+PS C:\Users\naoki.tomono\git_challenge> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\naoki.tomono\git_challenge> git add .
+PS C:\Users\naoki.tomono\git_challenge> git diff --staged
+diff --git a/hello_world.txt b/hello_world.txt
+index 0000000..30f51a3
+--- /dev/null
++++ b/hello_world.txt
+@@ -0,0 +1 @@
++hello, world!
+\ No newline at end of file
+PS C:\Users\naoki.tomono\git_challenge> git commit -m "1回目のコミット"
+[main (root-commit) f43af3c] 1回目のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\naoki.tomono\git_challenge> git diff
+index 30f51a3..5d6755b 100644
+--- a/hello_world.txt
++++ b/hello_world.txt
+@@ -1 +1,2 @@
+-hello, world!
+\ No newline at end of file
++hello, world!
++こんにちは、世界！
+\ No newline at end of file
+PS C:\Users\naoki.tomono\git_challenge> git add .
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\naoki.tomono\git_challenge> git log
 commit 89f2f5592132f8ac7fc7fcc2a9b1f81f940fbb00 (HEAD -> main)
 Author: NTOMONO <14ryo.junetomo@gmail.com>
 Date:   Wed Jan 8 15:12:10 2025 +0900
@@ -6,6 +86,4 @@ Date:   Wed Jan 8 15:12:10 2025 +0900
 
 commit f43af3ced25818826ec0d1e218888f8dbd4ac9e7
 Author: NTOMONO <14ryo.junetomo@gmail.com>
-Date:   Wed Jan 8 15:10:19 2025 +0900
-
-    hello, world.txtを追加
+    1回目のコミット
