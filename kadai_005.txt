@@ -1,0 +1,11 @@
+commit 89f2f5592132f8ac7fc7fcc2a9b1f81f940fbb00 (HEAD -> main)
+Author: NTOMONO <14ryo.junetomo@gmail.com>
+Date:   Wed Jan 8 15:12:10 2025 +0900
+
+    日本語訳を追記
+
+commit f43af3ced25818826ec0d1e218888f8dbd4ac9e7
+Author: NTOMONO <14ryo.junetomo@gmail.com>
+Date:   Wed Jan 8 15:10:19 2025 +0900
+
+    hello, world.txtを追加
